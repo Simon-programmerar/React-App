@@ -17,17 +17,17 @@ function Restaurang(){
             <div className="slider-container-restaurant">
                 <div className="menus">
                     <button className="prev-restaurant"> 
-                    <img src="Ikoner/chevron_left.svg" alt="chevron-left" />
+                    <img src="/Ikoner/chevron_left.svg" alt="chevron-left" />
                     </button>
                     
                     <button className="next-restaurant"> 
-                    <img src="Ikoner/chevron_right.svg" alt="chevron-right" />
+                    <img src="/Ikoner/chevron_right.svg" alt="chevron-right" />
                     </button>
 
                     <div className="restaurant-menu">
-                        <div className="menu"><img src="Bilder/vargen-meny.jpg" alt="huvud-menyn" /></div>
-                        <div className="menu"><img src="Bilder/vargen-pizzameny.jpg" alt="pizza-menyn" /></div>
-                        <div className="menu"><img src="Bilder/vargen-dessert,barnmeny.jpg" alt="dessert,barn-menyn" /></div>
+                        <div className="menu"><img src="/Bilder/vargen-meny.jpg" alt="huvud-menyn" /></div>
+                        <div className="menu"><img src="/Bilder/vargen-pizzameny.jpg" alt="pizza-menyn" /></div>
+                        <div className="menu"><img src="/Bilder/vargen-dessert,barnmeny.jpg" alt="dessert,barn-menyn" /></div>
                     </div>
                 </div>
             </div>
@@ -99,7 +99,7 @@ function Restaurang(){
             </div>
             
             <button className="expand-up"> 
-            <img src="Ikoner/expand_up.svg" alt="Skrolla upp" />
+            <img src="/Ikoner/expand_up.svg" alt="Skrolla upp" />
             </button>
         </main>
     );

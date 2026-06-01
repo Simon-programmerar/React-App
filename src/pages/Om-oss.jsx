@@ -5,9 +5,9 @@ function OmOss(){
             <div className="slider-container1">
                 <div className="about">
                     <div className="pictures">
-                        <div className="picture"><img src="Bilder/om-oss-bild1.jpg" alt="huvud-menyn" /></div>
-                        <div className="picture"><img src="Bilder/vargen-pizzameny.jpg" alt="pizza-menyn" /></div>
-                        <div className="picture"><img src="Bilder/vargen-dessert,barnmeny.jpg" alt="dessert,barn-menyn" /></div>
+                        <div className="picture"><img src="/Bilder/om-oss-bild1.jpg" alt="huvud-menyn" /></div>
+                        <div className="picture"><img src="/Bilder/vargen-pizzameny.jpg" alt="pizza-menyn" /></div>
+                        <div className="picture"><img src="/Bilder/vargen-dessert,barnmeny.jpg" alt="dessert,barn-menyn" /></div>
                     </div>
                 </div>
             </div>
@@ -15,16 +15,16 @@ function OmOss(){
             <div className="slider-container2">
                 <div className="about">
                     <button className="prev-about"> 
-                        <img src="Ikoner/chevron_left.svg" alt="chevron-left" />
+                        <img src="/Ikoner/chevron_left.svg" alt="chevron-left" />
                     </button>
                     
                     <button className="next-about"> 
-                        <img src="Ikoner/chevron_right.svg" alt="chevron-right" />
+                        <img src="/Ikoner/chevron_right.svg" alt="chevron-right" />
                     </button>
                     <div className="pictures">
-                        <div className="picture"><img src="Bilder/om-oss-bild.jpg" alt="huvud-menyn" /></div>
-                        <div className="picture"><img src="Bilder/vargen-pizzameny.jpg" alt="pizza-menyn" /></div>
-                        <div className="picture"><img src="Bilder/vargen-dessert,barnmeny.jpg" alt="dessert,barn-menyn" /></div>
+                        <div className="picture"><img src="/Bilder/om-oss-bild.jpg" alt="huvud-menyn" /></div>
+                        <div className="picture"><img src="/Bilder/vargen-pizzameny.jpg" alt="pizza-menyn" /></div>
+                        <div className="picture"><img src="/Bilder/vargen-dessert,barnmeny.jpg" alt="dessert,barn-menyn" /></div>
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@ function OmOss(){
             </div>
 
             <button className="expand-up"> 
-            <img src="Ikoner/expand_up.svg" alt="Skrolla upp" />
+            <img src="/Ikoner/expand_up.svg" alt="Skrolla upp" />
             </button>
         </main>
     );

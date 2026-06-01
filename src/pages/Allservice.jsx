@@ -8,7 +8,7 @@ function Allservice(){
             <div className="container1">
                 <div className="service-modules">
                     <a>
-                        <img className="allservice-icons" src="Ikoner/hardware.svg" alt="hammer" />
+                        <img className="allservice-icons" src="/Ikoner/hardware.svg" alt="hammer" />
                         <span>Snickeri</span>
                     </a>
                 </div>
@@ -17,7 +17,7 @@ function Allservice(){
             <div className="container2">
                 <div className="service-modules">
                     <a>
-                        <img className="allservice-icons" src="Ikoner/skottning.svg" alt="shovel" />
+                        <img className="allservice-icons" src="/Ikoner/skottning.svg" alt="shovel" />
                         <span>Snöskottning</span>
                     </a>
                 </div>
@@ -26,7 +26,7 @@ function Allservice(){
             <div className="container3">
                 <div className="service-modules">
                     <a>
-                        <img className="allservice-icons" src="Ikoner/snowmobile.svg" alt="snowmobile" />
+                        <img className="allservice-icons" src="/Ikoner/snowmobile.svg" alt="snowmobile" />
                         <span>Skoter tjänster</span>
                     </a>
                 </div>
@@ -35,14 +35,14 @@ function Allservice(){
             <div className="container4">
                 <div className="service-modules">
                     <a>
-                        <img className="allservice-icons" src="Ikoner/konsultation.svg" alt="konsultation" />
+                        <img className="allservice-icons" src="/Ikoner/konsultation.svg" alt="konsultation" />
                         <span>Konsultation</span>
                     </a>
                 </div>
             </div>
             
             <button className="expand-up"> 
-            <img src="Ikoner/expand_up.svg" alt="Skrolla upp" />
+            <img src="/Ikoner/expand_up.svg" alt="Skrolla upp" />
             </button>
         </main>
     );

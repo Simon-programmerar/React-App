@@ -12,26 +12,26 @@ function Navigation(){
         <nav className="nav">
             <ul>
                 <NavLink to = "/" className="nav-logo">
-                    <img src="Bilder/VargenLogga1.png" alt="Vargen logga" />
+                    <img src="/Bilder/VargenLogga1.png" alt="Vargen logga" />
                 </NavLink>
                 
                 
                 <li><NavLink to = "/Restaurang" className="restaurang">
-                        <img className="nav-icons" src="Ikoner/restaurant.svg" alt="restaurant-icon" />
+                        <img className="nav-icons" src="/Ikoner/restaurant.svg" alt="restaurant-icon" />
                         <span>Restaurang</span>
                     </NavLink>
                 </li>
 
                 <li><NavLink to = "/Bokning" className="bokning">
-                        <img className="nav-icons" src="Ikoner/chalet.svg" alt="chalet-icon" />
+                        <img className="nav-icons" src="/Ikoner/chalet.svg" alt="chalet-icon" />
                         <span>/</span>
-                        <img className="nav-icons" src="Ikoner/skiing.svg" alt="skiing-icon" />
+                        <img className="nav-icons" src="/Ikoner/skiing.svg" alt="skiing-icon" />
                         <span>Bokning</span>
                     </NavLink>
                 </li>
 
                 <li><NavLink to = "/Allservice" className="allservice">
-                        <img className="nav-icons" src="Ikoner/handyman.svg" alt="handyman-icon" />
+                        <img className="nav-icons" src="/Ikoner/handyman.svg" alt="handyman-icon" />
                         <span>Allservice</span>
                     </NavLink>
                 </li>
@@ -43,12 +43,12 @@ function Navigation(){
             </ul>
 
             <div className="nav-search">
-                <img className="search-icon" src="Ikoner/search.svg" alt="search-icon" />
+                <img className="search-icon" src="/Ikoner/search.svg" alt="search-icon" />
                 <input className="search-bar" type="search" placeholder="Sök" onKeyDown={(e) => searchOnEnter(e)} />
             </div>
 
             <div className="nav-language-icon">
-                <img src="Bilder/sprakfunktion.png" alt="språkfunktion" />
+                <img src="/Bilder/sprakfunktion.png" alt="språkfunktion" />
             </div>
         </nav>
     );

@@ -49,8 +49,8 @@ function Bokning(){
                     </a>
                     <div className="dropdown">
                         <a>
-                            <img className="square" src="Ikoner/square.svg" />
-                            <img className="arrow" src="Ikoner/chevron_down.svg" />
+                            <img className="square" src="/Ikoner/square.svg" />
+                            <img className="arrow" src="/Ikoner/chevron_down.svg" />
                         </a>
                     </div>
                 </div>
@@ -80,7 +80,7 @@ function Bokning(){
             </div>
 
             <button className="expand-up"> 
-            <img src="Ikoner/expand_up.svg" alt="Skrolla upp" />
+            <img src="/Ikoner/expand_up.svg" alt="Skrolla upp" />
             </button>
         </main>
     );

@@ -12,17 +12,17 @@ function Index(){
                 <h1 className="title">Upplev vargen</h1>
                 <div className="slider-container">
                     <div className="mySlides">
-                        <div className="mySlide"><img src="Bilder/testbild1.jpg" alt="image 1" /></div>
-                        <div className="mySlide"><img src="Bilder/testbild2.jpg" alt="image 2" /></div> 
-                        <div className="mySlide"><img src="Bilder/testbild3.jpg" alt="image 3" /></div> 
+                        <div className="mySlide"><img src="/Bilder/testbild1.jpg" alt="image 1" /></div>
+                        <div className="mySlide"><img src="/Bilder/testbild2.jpg" alt="image 2" /></div> 
+                        <div className="mySlide"><img src="/Bilder/testbild3.jpg" alt="image 3" /></div> 
                     </div>
                     
                     <button className="prev"> 
-                    <img src="Ikoner/chevron_left.svg" alt="chevron-left" />
+                    <img src="/Ikoner/chevron_left.svg" alt="chevron-left" />
                     </button>
                     
                     <button className="next"> 
-                    <img src="Ikoner/chevron_right.svg" alt="chevron-right" />
+                    <img src="/Ikoner/chevron_right.svg" alt="chevron-right" />
                     </button>
 
                 </div>
@@ -73,13 +73,13 @@ function Index(){
                 <h3>Tillbakablick: Skoterrace på vargen 2024</h3>
                 
                 <video controls>
-                    <source src="Bilder/Skoterrace.mp4" type="video/mp4" />
+                    <source src="/Bilder/Skoterrace.mp4" type="video/mp4" />
                     Din webbläsare stödjer ej denna videotyp.
                 </video>
             </div>
             
             <button className="expand-up"> 
-            <img src="Ikoner/expand_up.svg" alt="Skrolla upp" />
+            <img src="/Ikoner/expand_up.svg" alt="Skrolla upp" />
             </button> 
         </main>
     );
