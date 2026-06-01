@@ -41,7 +41,7 @@ function OmOss(){
             </div>
 
             <button className="expand-up"> 
-            <img src="/Ikoner/expand_up.svg" alt="Skrolla upp" />
+                <img src="/Ikoner/expand_up.svg" alt="Skrolla upp" />
             </button>
         </main>
     );
