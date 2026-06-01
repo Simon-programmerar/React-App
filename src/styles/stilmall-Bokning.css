@@ -1,0 +1,157 @@
+.main-bokning{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0;
+}
+
+.left-section{
+    display: flex;
+    grid-column: 1;
+    flex-direction: column;
+    padding: 10px;
+    margin: 30px;
+}
+
+.alternatives{
+    display: flex;
+    flex-direction: row;
+    width:max-content;
+    height: max-content;
+    padding: 25px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #45503B;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+
+.alt-btn{
+    background: none;
+    cursor: pointer;
+    border: none;
+    margin: 2%;
+    font-size: xx-large;
+    color: white;
+    transition: 0.2s ease;
+} 
+
+.alt-btn.active{
+    text-decoration: underline;
+}
+
+.alternatives span{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin: 2%;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+    padding: 20px;
+    width: 70%;
+}
+
+.text p{
+    color:black;
+    font-size: 20px;
+    line-height: 2;
+    text-align: justify;
+} 
+
+.right-section{
+    display: flex;
+    grid-column: 2;
+    flex-direction: column;
+    padding: 5%;
+    margin: 5%;
+    align-items: center;
+}
+
+.date-container{
+    display: flex;
+    flex-direction: row;
+    width:35%;
+    height: 5%;
+    padding: 5%;
+    margin-bottom: 10%;
+    align-items: center;
+    justify-content: center;
+    background-color: #45503B;
+    border-style: solid;
+    border-radius: 10px;
+    
+}
+
+.date-container span{
+    font-size: 30px;
+}
+
+.dropdown{
+    display: grid;
+    position:relative;
+    place-items: center;
+    margin-left: 10%;
+    height: 35px;
+    width:35px;
+}
+
+.square{
+    position:absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.arrow{
+    height: 35px;
+    width: 35px;
+}
+
+
+.options-container{
+    display: flex;
+    flex-direction: column;
+    width:90%;
+    height: 80%;
+    padding: 5%;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+    overflow: auto;
+    background-color: #FEFDFF;
+    border-style: solid;
+}
+
+.option1, .option2, .option3{
+    display: flex;
+    flex-direction: row;
+    background-color: #45503B;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 20px;
+    height:90%;
+    width:95%;
+}
+
+.option1 a, .option2 a, .option3 a{
+    padding: 5%;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+
+.option1 p, .option2 p, .option3 p{
+    margin-left: 5%;
+    margin-top:0;
+    font-size:medium;
+}
+
+@media (max-width:768px){
+    .main-bokning{grid-template-columns: 1fr;}
+    .right-section{grid-column: 1;}
+}

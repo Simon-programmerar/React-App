@@ -1,0 +1,63 @@
+.main-allservice{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: max-content auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+.omoss-text-allservice{
+    display:grid;
+    grid-column: 1 / 3;
+    grid-row: 1;
+    padding: 0;
+    margin-left: 15px;
+}
+
+.omoss-text-allservice h3{
+    color:black;
+    font-size:50px;
+    margin-bottom:15px;
+}
+
+.omoss-text-allservice p{
+    color: black;
+    font-size: 20px;
+    margin:0;
+}
+
+.container1, .container2, .container3, .container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    width: 550px;
+    border-radius: 20%;
+    margin: 30px;
+    align-self: center;
+    justify-self: center;
+    background-color: #45503B;
+}
+
+.service-modules{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.service-modules a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+    justify-items: center;
+    gap: 10px;
+}
+
+.service-modules img{
+    height: 100px;
+    width: 100px;
+}

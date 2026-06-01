@@ -1,0 +1,216 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+.Main_app {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding:0;
+    min-height: 100vh;
+}
+
+/*SPECIFIKA KOMPONENTER*/
+
+/*NAVIGATION*/
+.nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    overflow: hidden;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2B303A;
+    list-style: none;
+}
+.nav ul{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav ul li a{
+    display:flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    align-items: center;
+    gap: 2px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.nav-logo img{
+    height: 65px;
+    width: 90px;
+    margin: 15px;
+    margin-left: 20px
+}
+
+.nav-icons{
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-search{
+    display: flex;
+    flex-shrink: 1;
+    width: max-content;
+    align-items: center;
+    margin-left: 120px;
+    border-radius: 20px;
+    padding: 5px;
+    background: #f6f6f6;
+}
+
+.search-bar{
+    align-items: center;
+    margin-left:12px;
+    color: black;
+    font-family: Georgia, Arial, sans-serif;
+    font-size: 14px;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+
+.search-bar::placeholder{color: black;}
+
+.nav-language-icon{
+    align-self: flex-start;
+}
+
+.nav-language-icon img{
+    height: 17px;
+    width: 35px;
+    border-radius: 2px;
+}
+
+
+/*HUVUDSIDAN*/
+.main {
+    flex: 1; 
+    min-height: calc(100vh - 95px);
+    background-color: #faf4f4;
+    padding: 45px;
+    margin-top: 95px;
+    margin-bottom: 0;
+}
+
+.expand-up {
+    display: none;
+    position: fixed;
+    align-items: end;
+    right: 20px;
+    z-index: 99;
+    margin: 15px;
+    bottom: 10px;
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+
+.expand-up img {
+    height: 50px;
+    width: 50px;
+}
+
+
+
+/*AVSLUT*/
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #2B303A;
+    text-align: center;
+}
+
+.contact, .socials, .open{margin: 20px;}
+
+
+/*FONTER OCH FÄRGER*/
+h1 {font-family: Georgia, Arial, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    color:black
+}
+
+h2 {
+    font-family: Georgia, Arial, sans-serif;
+    font-size: 75px;
+    font-weight: bold;
+    color:black
+}    
+
+h3 {
+    font-family: Georgia, Arial, sans-serif;
+    font-size: 17px;
+    color: white;
+    text-align: justify;
+
+}
+
+p, a, li {font-family: Georgia, sans-serif;
+      font-size: 15px;  
+      color:white;
+      text-align: justify;
+}
+
+a:link {
+    text-decoration: none;
+    list-style-type: none;
+    color:white
+}
+a:hover{color: whitesmoke;}
+a:visited {color:rgba(255, 255, 255, 0.767);}
+
+
+@media (max-width:768px){
+    .nav ul {gap:15px}
+    .nav-search {margin-left: 20px;}
+}
+
+
+@media print{
+    @page{
+        size: A4 portrait;
+        margin: 15mm;
+    }
+    .nav, .footer{
+        display: none;
+    }
+    .main{
+        display: block;
+        margin-top: 0;
+        width: 180mm;
+        padding:0;
+    }
+    video{
+        display: none;
+    }
+
+    img{
+        max-width: 180mm;
+        max-height: 120mm;
+        object-fit: cover;
+    }
+
+    h1{font-size: 25pt; color:black} 
+    h2{font-size: 18pt; color:black} 
+    h3{font-size: 12pt; color:black}
+    li p a{font-size: 10pt; color: black}
+}
